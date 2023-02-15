@@ -64,6 +64,7 @@ main{
 .selecao-de-personagens .personagem-grande .nome h2{
     color: var(--cor-padrao);
     font-family: 'acme', sans-serif;
+    text-transform: capitalize;
     position: absolute;
     bottom: -25px;
     width: 100%;

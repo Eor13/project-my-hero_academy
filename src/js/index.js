@@ -5,7 +5,7 @@ personagens.forEach((personagem)=>{
         
         //Passo 6 - bloquear a seleção do personagem 2.
         const idSelecionado = personagem.attributes.id.value
-        if (idSelecionado === "Tomura") return;
+        if (idSelecionado === "tomura") return;
 
         //Passo 2 -  retirar a classe selecionado do pesonagem antigo
         const personagemSelecionado = document.querySelector(".selecionado")
